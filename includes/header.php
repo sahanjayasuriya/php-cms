@@ -1,3 +1,11 @@
+<?php include 'config/config.php';?>
+<?php include 'lib/Database.php';?>
+<?php include 'helpers/Format.php';?>
+
+<?php
+    $db = new Database();
+    $fm = new Format();
+?>
 <!DOCTYPE html>
 
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -70,12 +78,12 @@
             <div class="container">
                 <div class="nav-header">
                     <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
-                    <h1 id="fh5co-logo"><a href="index.html"><img src="images/logo.png"></a></h1>
+                    <h1 id="fh5co-logo"><a href="index.php"><img src="images/logo.png"></a></h1>
                     <!-- START #fh5co-menu-wrap -->
                     <nav id="fh5co-menu-wrap" role="navigation">
                         <ul class="sf-menu" id="fh5co-primary-menu">
                             <li class="active">
-                                <a href="index.html">මුල් පිටුව</a>
+                                <a href="index.php">මුල් පිටුව</a>
                             </li>
                             <li>
                                 <a href="#" class="fh5co-sub-ddown">සේවා</a>
@@ -86,8 +94,8 @@
                                     <li><a href="#">උදව්</a></li>
                                 </ul>
                             </li>
-                            <li><a href="about.html">අපි ගැන</a></li>
-                            <li><a href="contact.html">අපට අමතන්න</a></li>
+                            <li><a href="about.php">අපි ගැන</a></li>
+                            <li><a href="contact.php">අපට අමතන්න</a></li>
                         </ul>
                     </nav>
                 </div>

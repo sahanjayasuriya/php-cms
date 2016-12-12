@@ -1,14 +1,5 @@
-<?php include 'config/config.php';?>
-<?php include 'lib/Database.php';?>
-<?php include 'helpers/Format.php';?>
-
 <?php include 'includes/header.php';?>
 <?php include 'includes/slider.php';?>
-
-<?php
-    $db = new Database();
-    $fm = new Format();
-?>
 
 <div id="fh5co-blog-section" class="fh5co-section-gray">
     <div class="container">
